@@ -4,6 +4,8 @@
     {
         None,
         Start,
+        DailyReward,
+        Fight,
         Game
     }
 }
