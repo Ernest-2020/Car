@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Russian (ru)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Russian (ru)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 22ae876e84318904986a52921e6fbcf0
+  m_SerializeEntries:
+  - m_GUID: 91a6f4c9b969b4bb9866c25cba77273c
+    m_Address: BombSprite
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    - Locale-en
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: f0f92f30e8043a646853040f11ac61d6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f9538b75daa6ae445ad952a8ed746de4, type: 2}
+    - {fileID: 11400000, guid: 625d117e40bc03043a1649d9f494ac62, type: 2}

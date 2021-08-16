@@ -71,6 +71,20 @@
       "source": "builtin",
       "dependencies": {}
     },
+    "com.unity.addressables": {
+      "version": "1.18.11",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.scriptablebuildpipeline": "1.19.1",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ads": {
       "version": "3.6.1",
       "depth": 0,
@@ -80,8 +94,22 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.assetbundlebrowser": {
+      "version": "https://github.com/Unity-Technologies/AssetBundles-Browser.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b7c279278d1a343c6957c9f15b45173d3211f01c"
+    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.device-simulator": {
+      "version": "3.0.1-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -110,8 +138,32 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.localization": {
+      "version": "1.0.0-pre.10",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.addressables": "1.18.11",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.mathematics": {
       "version": "1.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.mobile.notifications": {
+      "version": "1.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "2.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -124,6 +176,13 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.19.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
