@@ -305,6 +305,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1703449975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1703449977}
+  - component: {fileID: 1703449976}
+  m_Layer: 0
+  m_Name: ADS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1703449976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703449975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3e6d8ad4f589d488992212769de177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1703449977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703449975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1980575205
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,3 +461,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _placeForUi: {fileID: 1903552}
+  _dailyRewardView: {fileID: 4491650687221392397, guid: d26546a84a722d04691c5444d69c5284,
+    type: 3}
+  _currencyView: {fileID: 5631965079717949800, guid: b12a31f906c846449a395c9d06a2ae8a,
+    type: 3}
+  _startFightView: {fileID: 4230870465503816393, guid: 7edd161c16c227347b9104d5c4a59fb9,
+    type: 3}
+  _fightWindowView: {fileID: 3316106465842199870, guid: fac538f2fea1704409102d7fdb9039a6,
+    type: 3}
+  _unityAdsTools: {fileID: 1703449976}
+  _itemConfigs:
+  - {fileID: 11400000, guid: eb8d35476112fda4d8f8c57150e29bbe, type: 2}
+  - {fileID: 11400000, guid: 1ee3f9925a080de43b442937645792e8, type: 2}
